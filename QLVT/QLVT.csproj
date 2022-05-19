@@ -118,6 +118,12 @@
     <Compile Include="frmChonVatTu.Designer.cs">
       <DependentUpon>frmChonVatTu.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmChuyenCN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChuyenCN.designer.cs">
+      <DependentUpon>frmChuyenCN.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmDangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -163,7 +169,7 @@
     <Compile Include="frmNhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmNhanVien.Designer.cs">
+    <Compile Include="frmNhanVien.designer.cs">
       <DependentUpon>frmNhanVien.cs</DependentUpon>
     </Compile>
     <Compile Include="frmPhieuNhap.cs">
@@ -254,6 +260,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmChonVatTu.resx">
       <DependentUpon>frmChonVatTu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChuyenCN.resx">
+      <DependentUpon>frmChuyenCN.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmDangNhap.resx">
       <DependentUpon>frmDangNhap.cs</DependentUpon>

@@ -22,6 +22,7 @@ namespace QLVT
         public static String loginName = ""; // mlogin
         public static String loginPassword = ""; // password
 
+        public static String serverNameChuyenToi = "";
 
         /*Kết nối từ server hiện tại -> server 2 => dùng remoteLogin
           Kết nối từ server 2 -> server hiện tại => dùng currentLogin 
