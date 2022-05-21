@@ -37,7 +37,6 @@ namespace QLVT
             this.txtPass = new DevExpress.XtraEditors.TextEdit();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             ((System.ComponentModel.ISupportInitialize)(this.txtLogin.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtPass.Properties)).BeginInit();
             this.SuspendLayout();
@@ -47,7 +46,7 @@ namespace QLVT
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(127, 71);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(71, 17);
+            this.label1.Size = new System.Drawing.Size(89, 21);
             this.label1.TabIndex = 0;
             this.label1.Text = "Chi Nhánh";
             // 
@@ -56,7 +55,7 @@ namespace QLVT
             this.cbxChiNhanh.FormattingEnabled = true;
             this.cbxChiNhanh.Location = new System.Drawing.Point(263, 68);
             this.cbxChiNhanh.Name = "cbxChiNhanh";
-            this.cbxChiNhanh.Size = new System.Drawing.Size(282, 24);
+            this.cbxChiNhanh.Size = new System.Drawing.Size(282, 28);
             this.cbxChiNhanh.TabIndex = 1;
             this.cbxChiNhanh.SelectedIndexChanged += new System.EventHandler(this.cbxChiNhanh_SelectedIndexChanged);
             // 
@@ -65,7 +64,7 @@ namespace QLVT
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(132, 142);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 17);
+            this.label2.Size = new System.Drawing.Size(84, 21);
             this.label2.TabIndex = 0;
             this.label2.Text = "Tài khoản";
             // 
@@ -74,7 +73,7 @@ namespace QLVT
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(132, 208);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 17);
+            this.label3.Size = new System.Drawing.Size(79, 21);
             this.label3.TabIndex = 0;
             this.label3.Text = "Mật khẩu";
             // 
@@ -84,9 +83,8 @@ namespace QLVT
             this.txtLogin.Name = "txtLogin";
             this.txtLogin.Properties.Appearance.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtLogin.Properties.Appearance.Options.UseFont = true;
-            this.txtLogin.Size = new System.Drawing.Size(282, 22);
+            this.txtLogin.Size = new System.Drawing.Size(282, 26);
             this.txtLogin.TabIndex = 2;
-            this.txtLogin.EditValueChanged += new System.EventHandler(this.txtLogin_EditValueChanged);
             // 
             // txtPass
             // 
@@ -95,12 +93,12 @@ namespace QLVT
             this.txtPass.Properties.Appearance.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPass.Properties.Appearance.Options.UseFont = true;
             this.txtPass.Properties.PasswordChar = '*';
-            this.txtPass.Size = new System.Drawing.Size(282, 22);
+            this.txtPass.Size = new System.Drawing.Size(282, 26);
             this.txtPass.TabIndex = 2;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(263, 304);
+            this.button1.Location = new System.Drawing.Point(193, 304);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(120, 41);
             this.button1.TabIndex = 3;
@@ -110,7 +108,7 @@ namespace QLVT
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(427, 304);
+            this.button2.Location = new System.Drawing.Point(407, 304);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(118, 41);
             this.button2.TabIndex = 3;
@@ -118,17 +116,11 @@ namespace QLVT
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // ribbonPage2
-            // 
-            this.ribbonPage2.Name = "ribbonPage2";
-            this.ribbonPage2.Text = "ribbonPage2";
-            // 
             // frmDangNhap
             // 
-            this.Appearance.Options.UseFont = true;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(822, 516);
+            this.ClientSize = new System.Drawing.Size(755, 404);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtPass);
@@ -138,8 +130,7 @@ namespace QLVT
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4);
-            this.MaximizeBox = false;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmDangNhap";
             this.Text = "frmDangNhap";
             this.Load += new System.EventHandler(this.frmDangNhap_Load);
@@ -160,6 +151,5 @@ namespace QLVT
         private DevExpress.XtraEditors.TextEdit txtPass;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage2;
     }
 }

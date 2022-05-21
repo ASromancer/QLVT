@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace QLVT
 {
-    public partial class frmDangNhap : DevExpress.XtraEditors.XtraForm
+    public partial class frmDangNhap : Form
     {
         public frmDangNhap()
         {
@@ -136,11 +136,6 @@ namespace QLVT
             // kích hoạt các phím chức năng dựa trên nhóm quyền
             Program.frmChinh.enableButtons();
             this.Visible = false;
-        }
-
-        private void txtLogin_EditValueChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
